@@ -1,0 +1,88 @@
+ /*Form-login*/
+ * {
+	box-sizing: border-box;
+}
+.form-login {
+	width            : 350px;
+	height           : 400px;
+	background       : #fff;
+	border-radius    : 5px;
+	margin           : 100px auto;
+	padding          : 20px;
+	box-shadow       : 0px 0px 5px #E8B50C;
+   -webkit-box-shadow: 0px 0px 5px #E8B50C;
+   -moz-box-shadow   : 0px 0px 5px #E8B50C;
+}
+.form-login input {
+	width             : 100%;
+	border            : none;
+	padding           : 20px;
+	border-bottom     : 2px solid #4AFF6B; 
+	margin            : 15px 0 10px 0;
+	box-shadow        : 0px 0px 5px #1E3F75;
+   -webkit-box-shadow : 0px 0px 5px #1E3F75;
+   -moz-box-shadow    : 0px 0px 5px #1E3F75;
+   font-family        : evogria;
+   -moz-font-family   : evogria;
+   -webkit-font-family: evogria;
+}
+.form-login input[type="submit"] {
+	color        : #4AFF6B;
+	background   : #222;
+	border-bottom: 2px solid #4AFF6B; 
+}
+
+.form-login input[type="submit"]:active {
+	border-bottom: 0 solid #eee; 
+}
+.form-login input[type="submit"]:hover {
+	box-shadow        : 0px 0px 5px #FF0000;
+   -webkit-box-shadow : 0px 0px 5px #FF0000;
+   -moz-box-shadow    : 0px 0px 5px #FF0000;
+}
+
+
+ /*SOCIAL*/
+ .social {
+	position     : relative;
+    width        : 940px;
+    background   : #7a7a7a;
+    border-radius: 5px;
+	margin       : 50px auto;
+	min-height   : 500px;
+	text-align   : center;
+	padding      : 50px;
+	overflow-x   : hidden;
+}
+ body {
+ 	background-image:url("hero-bg.png");
+ }
+.social{background-image: url("hero-bg2.png");} 
+.social h3{
+	font-family         : evogria;
+   -moz-font-family     : evogria;
+   -webkit-font-family  : evogria;
+	font-size           : 200%;
+}
+.social img {
+	display          : block;
+	border-radius    : 50%;
+	border           : solid 1px #eee;
+	margin           : 25px auto;
+}
+.social .sair {
+	background        : none;
+	border-radius     : 20%; 
+	border            : solid 1px #eee;
+	margin            : 25px auto;
+	background        : url('s12.png');
+	width             : 48px;
+	height            : 48px;
+	position          : absolute;
+	right             : 5px;
+	top               : -20px;
+	text-indent       : 999px;
+}
+.social .sair:hover {
+	background      : url('s21.png');
+}
